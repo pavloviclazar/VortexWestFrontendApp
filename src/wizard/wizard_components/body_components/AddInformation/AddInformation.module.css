@@ -6,7 +6,7 @@
 .book-title-div {
   grid-area: BookTitle;
   background-color: white;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .book-title-lable-div {
