@@ -101,4 +101,5 @@
 .WizardHeader {
   grid-area: WizardHeader;
   margin-left: -150px;
+  margin-right: -150px;
 }

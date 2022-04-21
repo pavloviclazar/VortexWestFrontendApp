@@ -74,6 +74,5 @@
 
 .WizardHeader {
   grid-area: WizardHeader;
-  margin-bottom: 30px;
   margin-left: -150px;
 }

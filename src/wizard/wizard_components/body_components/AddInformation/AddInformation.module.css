@@ -363,8 +363,6 @@
 
 .WizardHeader {
   grid-area: WizardHeader;
-  object-position: initial;
-  margin-top: 20px;
-  margin-bottom: -150px;
   margin-left: -150px;
+  margin-right: 30px;
 }

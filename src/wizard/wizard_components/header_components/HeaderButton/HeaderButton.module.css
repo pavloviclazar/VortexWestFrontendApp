@@ -10,7 +10,7 @@
   cursor: pointer;
   width: 40px;
   height: 40px;
-  margin-left: 170px;
+  margin-left: 150px;
 }
 
 .header-button-inactive {
@@ -26,4 +26,9 @@
   width: 40px;
   height: 40px;
   margin-left: 150px;
+}
+
+.StepName {
+  font-size: 13px;
+  margin-left: 145px;
 }
