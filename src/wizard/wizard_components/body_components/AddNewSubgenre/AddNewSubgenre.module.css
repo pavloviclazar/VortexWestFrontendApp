@@ -1,0 +1,90 @@
+.add-new-subgenre-name-title {
+  grid-area: AddNewSubgenreNameTitle;
+  margin-top: -10px;
+}
+
+.subgenre-div {
+  grid-area: SubgenreName;
+  margin-top: 20px;
+}
+
+.subgenre-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 600px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.CheckBox {
+  grid-area: CheckBox;
+}
+
+.button-back {
+  grid-area: ButtonBack;
+}
+
+.button-back {
+  background-color: white;
+  border: 2px solid #c0c0c0;
+  border-radius: 7px;
+  color: silver;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 30px 15px 0px 450px;
+  width: 80px;
+  height: 30px;
+}
+
+.button-forward {
+  grid-area: ButtonForward;
+}
+
+.button-forward {
+  background-color: #1f1c1c;
+  border: 2px solid #c0c0c0;
+  border-radius: 7px;
+  color: silver;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 30px 15px 0px -15px;
+  width: 80px;
+  height: 30px;
+}
+
+.SubgenreNameWindow {
+  background-color: white;
+  border-style: solid;
+  color: #9099a8;
+  border-radius: 4px;
+  border-width: 2px 2px 2px 2px;
+  width: 640px;
+  height: 100%;
+  margin: 75px 300px 0px 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+.SubgenreNameWindow {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "AddNewSubgenreNameTitle AddNewSubgenreNameTitle"
+    "WizardHeader WizardHeader"
+    "SubgenreName SubgenreName"
+    "CheckBox ."
+    "ButtonBack ButtonForward";
+}
+
+.WizardHeader {
+  grid-area: WizardHeader;
+  margin-left: -150px;
+}

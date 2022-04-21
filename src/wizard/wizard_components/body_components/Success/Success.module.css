@@ -1,0 +1,56 @@
+.Confirmation {
+  grid-area: Confirmation;
+  margin-left: 280px;
+}
+
+.success-title-div {
+  grid-area: SuccessTitle;
+}
+
+.success-title-div {
+  color: #473f3f;
+  text-decoration: none;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+.success-input-div {
+  grid-area: SuccessInput;
+}
+
+.success-input-div {
+  background-color: #473f3f;
+  border: 2px solid silver;
+  border-radius: 7px;
+  color: silver;
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 2px 50px 0px;
+  cursor: pointer;
+  height: 30px;
+  width: 250px;
+}
+
+.SuccessWindow {
+  background-color: white;
+  border-style: solid;
+  color: #9099a8;
+  border-radius: 4px;
+  border-width: 2px 2px 2px 2px;
+  width: 650px;
+  height: 100%;
+  margin: 75px 300px 0px 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+.SuccessWindow {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "Confirmation"
+    "SuccessInput"
+    "SuccessTitle";
+}

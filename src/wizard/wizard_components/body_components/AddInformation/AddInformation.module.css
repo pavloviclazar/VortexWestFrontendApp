@@ -1,0 +1,370 @@
+.add-information-title {
+  grid-area: AddInformationTitle;
+  margin-top: -20px;
+}
+
+.book-title-div {
+  grid-area: BookTitle;
+  background-color: white;
+  margin-top: 80px;
+}
+
+.book-title-lable-div {
+  color: #473f3f;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.book-title-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 600px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.book-title-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.author-div {
+  grid-area: Author;
+}
+
+.author-lable-div {
+  color: #473f3f;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.author-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 600px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.author-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.isbn-div {
+  grid-area: Isbn;
+}
+
+.isbn-lable-div {
+  color: #473f3f;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.isbn-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 600px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.isbn-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.publisher-div {
+  grid-area: Publisher;
+}
+
+.publisher-lable-div {
+  color: #473f3f;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.publisher-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 600px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.publisher-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.date-publishered-div {
+  grid-area: DatePublishered;
+  margin-top: 15px;
+}
+
+.date-publishered-lable-div {
+  color: #473f3f;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.date-publishered-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 200px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.date-publishered-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.number-of-pages-div {
+  grid-area: NumberOfPages;
+  margin-top: 15px;
+}
+
+.number-of-pages-lable-div {
+  color: #473f3f;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.number-of-pages-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 160px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.number-of-pages-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.format-div {
+  grid-area: Format;
+  margin-top: 15px;
+}
+
+.format-lable-div {
+  color: #473f3f;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.format-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 200px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.format-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.edition-div {
+  grid-area: Edition;
+  margin-top: 15px;
+}
+
+.edtion-lable-div {
+  color: #473f3f;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.edtion-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 200px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.edition-language-div {
+  grid-area: EditionLanguage;
+  margin: 15px -400px;
+}
+
+.edtion-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.edtion-language-lable-div {
+  color: #473f3f;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+
+.edtion-language-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 200px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.edtion-language-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.description-div {
+  grid-area: Description;
+}
+
+.description-label-div {
+  color: #473f3f;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.description-input-div {
+  border-radius: 10px;
+  border-style: solid;
+  color: #9099a8;
+  border-width: 2px 2px 2px 2px;
+  width: 600px;
+  height: 80px;
+  padding: 0px 15px;
+}
+
+.description-input-div::placeholder {
+  color: silver;
+  padding: 5px 0px 5px 5px;
+}
+
+.UnderlineIcon {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: -620px;
+}
+
+.LinkIcon {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: -600px;
+}
+
+.ArrobaIcon {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: -580px;
+}
+
+.AddInformationWindow {
+  background-color: white;
+  border-style: solid;
+  color: #9099a8;
+  border-radius: 4px;
+  border-width: 2px 2px 2px 2px;
+  width: 650px;
+  height: 100%;
+  margin: 75px 300px 0px 300px;
+  padding: 20px 20px 20px 20px;
+}
+
+.AddInformationWindow {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "AddInformationTitle AddInformationTitle"
+    "WizardHeader WizardHeader"
+    "BookTitle ."
+    "Author ."
+    "Isbn ."
+    "Publisher ."
+    "DatePublishered ."
+    "NumberOfPages ."
+    "Format ."
+    "Edition EditionLanguage"
+    "Description ."
+    "ButtonBack ButtonForward";
+}
+
+.button-back {
+  grid-area: ButtonBack;
+}
+
+.button-back.ArrowBack {
+  margin-left: 10px;
+}
+
+.button-back {
+  background-color: white;
+  border: 2px solid #c0c0c0;
+  border-radius: 7px;
+  color: silver;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 30px 15px 0px 450px;
+  width: 80px;
+  height: 30px;
+}
+
+.button-forward {
+  grid-area: ButtonForward;
+}
+
+.button-forward {
+  background-color: #1f1c1c;
+  border: 2px solid #c0c0c0;
+  border-radius: 7px;
+  color: silver;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 30px 15px 0px -100px;
+  width: 80px;
+  height: 30px;
+}
+
+.WizardHeader {
+  grid-area: WizardHeader;
+  object-position: initial;
+  margin-top: 20px;
+  margin-bottom: -150px;
+  margin-left: -150px;
+}
